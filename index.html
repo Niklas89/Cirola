@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/indexAttente.css" type="text/css" media="screen" title="Cirola" charset="utf-8" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		(function($){
+			$.fn.Middle= function(){
+				this.css({
+					'position' : 'fixed',
+					'left' : '50%',
+					'top' : '50%'
+				});
+				
+				this.css({
+					'margin-left' : -this.width()/2 + 'px',
+					'margin-top' : -this.height()/2 +'px'
+				});
+			};
+		})(jQuery);
+		
+		$(document).ready(function(){
+			$("#content").Middle();
+		});
+	</script>
+	<title>Cirola prochainement en ligne.</title>
+	
+</head>
+
+<body>
+
+<div id="content">
+	<img src="images/logo.png" alt="Cirola.com" />
+	
+	<div id="texte">
+		<h1>Cirola ouvrira ses portes prochainement.</h1>
+		<p>Nous proposerons à nos membres des évènements de qualité grâce à un réseau de sportifs fiables, évalué par leurs partenaires. Vous éviterez ainsi les mauvaises rencontres et garderez ainsi l'esprit sportif.</p>
+	</div>
+</div>
+
+</body>
+</html>

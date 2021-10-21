@@ -1,0 +1,23 @@
+
+			<div class="separation"></div>
+			<?php
+				try{
+				$bdd = new PDO('mysql:host=localhost;dbname=cirolaprod', 'root', 'root') or die(print_r($bdd->errorInfo()));
+				$bdd->exec('SET NAMES utf8');
+				$reponse = $bdd->query('SELECT * FROM users');
+				$data = $reponse->fetch();
+				$dir = '../publicite/';
+				echo "<a href='".$data['lien']."'><img class='avatarimg' src='".$dir.$data['img']."'/></a>";
+			?>
+			
+			
+			
+			<div class="social">
+				<h3>Suivez - nous</h3>
+				<img src="templates/images/facebook.png" class="facebook" alt="facebook" title="facebook" />
+				<img src="templates/images/twitter.png" alt="twitter" title="twitter" />
+			</div>
+			
+			<p>Copyright © 2012 Cirola - All Rights Reserved</p>
+			
+		

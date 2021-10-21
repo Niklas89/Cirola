@@ -1,0 +1,2083 @@
+body {
+	margin:0;
+	padding:0;
+	background: #e9e7e8 url('../images/fond.png') repeat-x;
+	font-family:Tahoma;
+}
+
+#conteneur {
+	width:960px;
+	margin:auto;
+}
+
+.clear {
+	clear:both;
+}
+/* Logo */
+
+#logo {
+	margin-top:31px;
+}
+/* End Logo */
+
+/* Header */
+
+#header {
+	margin-top:41px;
+	background: url('../images/imgnav.jpg') no-repeat;
+	height:129px;
+	position:relative;
+}
+
+#login {
+	padding-top:4px;
+	width:153px;
+	padding-left:734px;
+}
+
+
+
+#login input {
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	border:none;
+	padding:5px;
+	margin-bottom:5px;
+	color:#787878;
+	background-color:#f7f6f6;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1); 
+}
+
+#login input[type=text] {
+	background: #f7f6f6 url('../images/imgname.png') no-repeat 124px 5px;
+	width:153px;
+}
+
+#login input[type=password] {
+	background: #f7f6f6 url('../images/imgpass.png') no-repeat 124px 5px;
+	width:153px;
+}
+
+#login input[type=submit]{
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	border:1px solid #fa5400;
+	width:55px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	font-weight:bold;
+	margin-left:108px;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+#login input[type=submit]:hover {
+	opacity:0.9;
+}
+
+
+/* Texte a la place du login dans le header */
+
+#login h2 {
+	color:white;
+	position:absolute;
+	font-size:14px;
+	top: 24px;
+right: 0px;
+width: 149px;
+	
+}
+
+.orange {
+	color:#fa5400;
+}
+
+#login p {
+	right: 72px;
+	position: absolute;
+	top: 42px;
+}
+
+#login input[type=submit]{
+	display:inline-block;
+	padding:5px;
+	text-decoration:none;
+	background:url('../images/boutonrouge.png') repeat-x;
+	cursor:pointer;
+	border:1px solid #fa5400;
+	color:#fefefe;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:14px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#logout a{
+	display:inline-block;
+	padding:5px;
+	text-decoration:none;
+	background:url('../images/boutonrouge.png') repeat-x;
+	cursor:pointer;
+	border:1px solid #fa5400;
+	color:#fefefe;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:14px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#oublie {
+	margin-left:27px;
+	font-size:14px;
+	text-decoration:none;
+	color:white;
+}
+
+#oublie:hover {
+	color:#e05709;
+	text-decoration:underline;
+}
+
+
+
+/* End texte a la place du login dans le header */
+
+/* End Header */
+
+
+/* Body */
+
+#conteneur_body {
+	background-color:#fefefe;
+	padding:0;
+	margin:0;
+	width:960px;
+	padding-bottom:66px;
+	-moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+	-moz-box-shadow:  0px 1px 10px black; 
+	-webkit-box-shadow: 1px 10px 10px black; 
+	box-shadow: 0px 10px 5px #808080; 
+	margin-bottom:30px;
+}
+
+/* Quand on est pas connecté, page accueil */
+
+#login_off {
+	padding-top:43px;
+
+}
+
+#welcome {
+	width:335px;
+	margin-top:25px;
+	margin-left:93px;
+	float:left;
+}
+
+#welcome h2 {
+	color:#fa5400;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:35px;
+	padding:0;
+	margin:0;
+}
+
+.sous_h2 {
+	font-size:23px;
+	font-weight:bold;
+}
+
+#welcome p {
+	margin-top:10px;
+	font-size:13px;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-family:Trebuchet MS;
+}
+
+#inscrit {
+	width:383px;
+	float:left;
+	background:url('../images/fond_blocinscris.png') repeat-x;
+	margin-left:91px;
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.4); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	margin-top:4px;
+	padding-bottom:12px;
+}
+
+#inscrit h2 {
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:24px;
+	margin-top:30px;
+	margin-left:22px;
+	margin-bottom: 0px;
+
+}
+
+#inscrit p {
+	margin-top: 8px;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-size:13px;
+	font-weight:bold;
+	margin-left:50px;
+	width:303px;
+	padding-bottom: 6px;
+}
+
+#inscrit a {
+	background:url('../images/puce_jeminscris.png') no-repeat 230px 10px,
+				url('../images/boutonrouge.png') repeat-x;		
+	color:white;
+	border:1px solid #fa5400;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	padding-left:38px;
+	padding-right:28px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:100px;
+	text-decoration:none;
+}
+
+#presentation {
+	width:817px;
+	margin:38px auto;
+	padding-left:27px;
+	background:url('../images/fond_bloc_guide.png') repeat-x;
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.4); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	padding-bottom:1px;
+	height:103px;
+}
+
+.bloc_presentation {
+	width:272px;
+	background:url('../images/separation.png') no-repeat 258px 30px;
+	float:left;
+	padding-top:17px;
+	
+}
+
+.chiffre {
+	width:18px;
+	height:24px;
+	margin:0;
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.4); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 1px  #d2dce5;
+	text-align:center;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:22px;
+	color:#797979;
+	float:left;
+
+}
+
+.bloc_presentation img {
+	margin-left:20px;
+	margin-top:17px;
+	float:left;
+}
+
+.bloc_presentation h3 {
+	margin-left:20px;
+	margin-top:30px;
+	float:left;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	padding-right:51px;
+	
+}
+
+#ajustement{
+	background:none;
+	margin-left:px;
+}
+
+/* End quand on est pas connecté, page accueil */
+
+/* Navigation */
+
+#navigation {
+	width:960px;
+	height:55px;
+	background:url('../images/fond_bloc_menu.png') repeat-x;
+	border-bottom:1px solid #fa5400;
+	
+}
+
+#navigation ul {
+	padding:0;
+	margin-left:64px;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+#navigation ul li {
+	list-style:none;
+	float:left;			
+}
+
+#navigation ul li a{
+	line-height:55px;
+	display:block;
+	margin-top:0;
+	padding-right:24px;
+	padding-left:29px;
+	text-decoration:none;
+	color:#4d4d4d;	
+	font-size:15px;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	background:url('../images/menu_separation.png') no-repeat 0px 18px;
+}
+
+#navigation ul li:first-child a {
+	background:url('../images/menu_separation.png') no-repeat 200px 15px;			
+}
+
+#navigation ul li a:hover {
+	color:#fa5400;
+	text-decoration:underline;
+}
+	
+/* End navigation */
+
+/* Event */
+
+#event {
+	margin-left:58px;
+	margin-top:43px;
+}
+
+.search_event {
+	width:383px;
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.4); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	height:209px;
+	background:url('../images/fond_bloc_recherche.png') repeat-x;
+	float:left;
+}
+
+.search_event h2 {
+	color:#4d4d4d;
+	margin-top: 26px;
+	margin-left:26px;
+	font-size:18px;
+}
+
+.search_event label {
+	padding-left:26px;
+	color:#fa5400;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+}
+
+.search_event select {
+	margin-left:59px;
+	width:168px;
+	color:#949494;
+	background-color:#f7f6f6;
+	border:none;
+	height:26px;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	padding-top: 3px;
+} 
+
+#sport {
+	margin-left:10px;
+}
+
+.search_event input {
+	margin-left:50px;
+	width:168px;
+	color:#949494;
+	height:26px;
+	background-color:#f7f6f6;
+	border:none;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.desc_search {
+	margin-bottom:16px;
+}
+
+.desc_search2 input{
+	margin-left:66px;
+	width:139px;
+	height:26px;
+	background-color:#fffefe;
+	border:none;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.desc_search2 {
+	float:left;
+}
+
+.search_event input[type=submit]{
+	width:39px;
+	float:left;
+	height:30px;
+	background:url('../images/boutonrouge.png') repeat-x;
+	cursor:pointer;
+	border:1px solid #fa5400;
+	color:#fefefe;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:14px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#ajustement_search {
+	margin-left:78px;
+}
+
+/* End Event */
+
+
+/* Creer_Event */
+
+#creer_event{
+	padding-left:67px;
+	margin-top:38px;
+	padding-bottom:50px;
+	float:left;
+}
+
+#creer_event div{
+	margin-bottom:20px;
+}
+
+#creer_event h2 {
+	font-family:Arial;
+	font-weight:bold;
+	color:#4d4d4d;
+	font-size:18px;
+	margin-bottom:40px;
+}
+
+#creer_event label{
+	color: #949494;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size:16px;
+}
+
+#creer_event #etitle {
+	background: #f7f6f6 url('../images/imgetitle.png') no-repeat 134px 5px;
+}
+
+#creer_event #qdate {
+	background: #f7f6f6 url('../images/imgdate.png') no-repeat 134px 3px;
+}
+
+#creer_event #description {
+	background: #f7f6f6 url('../images/imgdescription.png') no-repeat 310px 3px;
+}
+
+#creer_event #searchTextField {
+	background: #f7f6f6 url('../images/imglieu.png') no-repeat 312px 2px;
+}
+
+#creer_event #lieurdv {
+	background: #f7f6f6 url('../images/imglieu.png') no-repeat 252px 2px;
+	margin-left:8px;
+}
+
+#creer_event #eid {
+	margin-top:10px;
+}
+
+#creer_event #sportoption {
+	background: #f7f6f6 url('../images/imgsport.png') no-repeat;
+}
+
+#creer_event input{
+	color:#949494;
+	height:26px;
+	background-color:#f7f6f6;
+	border:none;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	padding-left:10px;
+}
+
+#creer_event input[type=submit]{
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	border:1px solid #fa5400;
+	width:100px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	font-weight:bold;
+	margin-left:350px;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+#creer_event select {
+	color:#949494;
+	background-color:#f7f6f6;
+	border:none;
+	height:26px;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+} 
+
+#creer_event textarea{
+	color:#949494;
+	background-color:#f7f6f6;
+	border:none;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#creer_event .description{
+	float:left;
+}
+
+#creer_event  #etitle{
+	margin-left:70px;
+}
+
+#creer_event  #sport{
+	margin-left:65px;
+}
+
+#creer_event  #qdate{
+	margin-left:70px;
+}
+
+#creer_event  #hours{
+	margin-left:60px;
+}
+
+
+#creer_event  #participants{
+	margin-left:15px;
+}
+
+#creer_event  #description{
+	margin-left:20px;
+}
+
+#creer_event  #searchTextField{
+	margin-left:70px;
+}
+
+.creer_event_left {
+	float:left;
+	width:300px;
+}
+
+.creer_event_right {
+	float:left;
+	width:500px;
+	margin-left:50px;
+}
+
+.creer_event_valid {
+	font-size:11px;
+	color:red;
+}
+
+#creer_event .h3_event_cree {
+	color:red;
+	margin-bottom:50px;
+}
+
+/* End Creer_Event */
+
+
+/* voir_event */
+
+#voir_event {
+	width:613px;
+	padding-left:67px;
+	margin-top:38px;
+	padding-bottom:50px;
+	float:left;
+	color:#4d4d4d;
+}
+
+#voir_event h2{
+	text-transform:uppercase;
+	color: #fa5400;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:40px;
+}
+
+#voir_event a {
+	font-family:Trebuchet MS;
+	font-size:13px;
+	color:#797979;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:403px;
+}
+
+#voir_event a:hover {
+	color:#fa5400;
+}
+
+.voir_event_ename {
+	color: #fa5400;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.voir_event_qdate {
+	color: #fa5400;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.voir_event_qtime {
+	color: #fa5400;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+	display:inline-block;
+	margin-left:50px;
+}
+
+.details_event_left {
+	float:left;
+	margin-right:50px;
+	margin-bottom:50px;
+}
+
+.details_event_left_qdate{
+	float:left;
+	margin-right:50px;
+}
+
+.details_event_right {
+	float:left;
+	padding-top:50px;
+}
+
+.voir_event_details {
+	width:500px;
+	clear:both;
+}
+
+.voir_event_detailsrdv {
+	width:500px;
+	margin-bottom:80px;
+	clear:both;
+}
+
+
+#voir_event .separation{
+	height:10px;
+	background: url("../images/footer_separation.png") repeat-x;
+	width:560px;
+	margin-top:40px;
+}
+
+.voir_event_icone_heure {
+	display:inline-block;
+	margin-left:200px;
+}
+
+.voir_event_sport {
+	width:300px;
+	height:50px;
+}
+
+.details_event_left_lieu {
+	float:left;
+	margin-right:50px;
+	margin-bottom:30px;
+	margin-top:18px;
+}
+
+.voir_event_lieu {
+	float:left;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+	color: #fa5400;
+	width:300px;
+}
+
+#voir_event_bloc_droit .voir_event_sport h3{
+	text-transform:uppercase;
+	color:#4d4d4d;
+	font-size:18px;
+	display:inline-block;
+	float:left;
+	margin-left:20px;
+}
+
+.voir_event_titre_img {
+	float:left;
+	margin-top:10px;
+}
+
+#voir_event_bloc_droit {
+	float:left;
+	width:225px;
+	margin-top:30px;
+}
+
+.voir_event_bloc h3{
+	color: #fa5400;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+	margin-top:60px;
+}
+
+.voir_event_bloc ul li {
+	list-style:none;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	padding-top:10px;
+}
+
+.voir_event_bloc ul {
+	padding-left:0;
+}
+
+.voir_event_bloc p {
+	color: #fa5400;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	margin-left:60px;
+}
+
+.voir_event_icone_participants {
+	margin-right:30px;
+	clear:both;
+}
+
+.voir_event_liste_participants {
+	margin-right:10px;
+}
+
+.voir_event_bloc-ajustement h3 {
+	margin-top:0px !important;
+}	
+
+#voir_event_bloc_droit a {
+	font-family:Trebuchet MS;
+	font-size:13px;
+	color:#797979;
+	text-decoration:none;
+	margin-top:20px;
+}
+
+#voir_event_bloc_droit a:hover {
+	color:#fa5400;
+}
+
+.voir_event_bouton_valid {
+	margin-top:100px;
+	width:400px;
+}
+
+.voir_event_bouton_valid input{
+	color:#949494;
+	height:26px;
+	background-color:#f7f6f6;
+	border:none;
+	-moz-box-shadow:    0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow:   0px -1px 1px  rgba(0, 0, 0, 0.1);
+	box-shadow:  0px -1px 1px  rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	padding-left:10px;
+}
+
+.voir_event_bouton_valid  input[type=submit]{
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	border:1px solid #fa5400;
+	width:175px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	font-weight:bold;
+	margin-left:50px;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+.voir_event_bouton_valid  input[type=submit]:hover {
+	opacity:0.9;
+}
+
+.voir_event_bouton_novalid {
+	margin-right:20px;
+}
+
+#voir_event_bloc_droit .voir_event_bouton_valid .cestcomplet {
+	color:red;
+	margin-left:40px;
+	font-weight:bold;
+	font-size:14px;
+} 
+
+#voir_event_bloc_droit .voir_event_bouton_valid .desinscrire{
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	border:1px solid #fa5400;
+	width:140px;
+	height:22px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	font-weight:bold;
+	font-size:14px;
+	margin-left:50px;
+	margin-top:5px;
+	padding-top:4px;
+	cursor:pointer;
+	text-align:center;
+	border: 1px solid rgba(0, 0, 0, 0.1)
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#voir_event_bloc_droit .voir_event_bouton_valid .desinscrire a{
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+.voir_event_social {
+	margin-left:70px;
+	margin-top:10px;
+}
+
+
+
+
+/* End voir_event */
+
+
+/* BLOC Central */
+
+#last_event {
+	width:613px;
+	padding-left:67px;
+	margin-top:38px;
+	padding-bottom:50px;
+	float:left;
+	background:url('../images/sep_bloccentral.png') no-repeat 650px 40px;
+}
+
+#last_event h2 {
+	font-family:Arial;
+	font-weight:bold;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.bloc_sport a {
+	display:inline-block;
+	width:250px;
+	height:133px;
+}
+
+.bloc_sport {
+	background:url('../images/fond_bloc_evenement.png') repeat-x;
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.4); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.4);
+	float:left;
+	margin-right:53px;
+	margin-top:15px;
+	margin-bottom:31px;
+	position:relative;
+}
+
+.bloc_sport img {
+	position:absolute;
+	left:180px;
+	top:5px;
+}
+
+.bloc_sport h3 {
+	margin-left:16px;
+	color:#656565;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:16px;
+	margin-top:0;
+}
+
+.grisfonce{
+	font-family:Arial;
+	color:#4d4d4d;
+	font-size:12px;
+}
+
+.bloc_sport p {
+	margin-left:16px;
+	color:black;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12px;
+	margin-bottom:0;
+	margin-top: 5px;
+margin-right: 6px;
+} 
+
+.bloc_sport:hover{
+	-moz-box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.8); 
+	-webkit-box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 1px 10px  rgba(0, 0, 0, 0.8);
+}
+
+.bloc_sport:hover p{
+	color:#fa5400;
+}
+.bloc_sport:hover h3{
+	color:#fa5400;
+}
+
+.distance  {
+	margin-top:28px !important;
+}
+
+#last_event a {
+	font-family:Trebuchet MS;
+	font-size:13px;
+	color:#797979;
+	text-decoration:none;
+	margin-top:10px;
+	
+}
+
+#last_event a:hover {
+	color:#fa5400;
+}
+
+#bloc_droit {
+	float:left;
+	width:225px;
+	margin-top:55px;
+
+
+}
+
+.bloc {
+	height:183px;
+}
+
+.bloc ul {
+	margin:0;
+}
+.bloc h3{
+	color:#4d4d4d;
+	font-size:13px;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	margin-top:40px;
+	margin-left:15px;
+}
+
+.bloc ul li {
+	list-style:none;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	background:url('../images/pers4.png') no-repeat 136px 0px;
+	padding-bottom:14px;
+	
+}
+
+.bloc ul {
+	padding-left:0;
+}
+	
+.chiffres {
+	font-size:18px;
+	font-family:Trebuchet MS;
+	color:#fa5400;
+}
+
+.h3_ajustement {
+	margin-top:13px !important;
+}	
+
+#evenements_passes {
+	height:172px;
+}
+#evenements_passes ul li {
+	list-style-image:url('../images/fleche_liste_evenements_passes.png');
+	background:url('../images/icone_faux_evenements_passes.png') no-repeat 126px 2px;
+	padding-bottom:8px;
+}
+#evenements_passes h3 {
+	margin-top:10px !important;
+}
+#evenements_passes ul  {
+	padding-left:15px;
+}
+
+#bloc_droit a {
+	font-family:Trebuchet MS;
+	font-size:13px;
+	color:#797979;
+	text-decoration:none;
+	margin-top:20px;
+}
+
+#a a {
+	margin-top:20px; 
+	margin-left:403px;
+}
+
+#bloc_droit a:hover {
+	color:#fa5400;
+}
+
+#voir_event_accueil  {
+	margin-left:403px;
+}
+
+/* End Bloc central */
+
+
+/*FOOTEr */
+		#footer{
+				margin-top:20px;
+				font-family:tahoma;
+			}
+			#footer .separation{
+				height:10px;
+				background: url("../images/footer_separation.png") repeat-x;
+				width:876px;
+				margin:auto;
+			}
+			.publicite {
+				float: left;
+				margin-left: 42px;
+			}
+			
+			.publicite img {
+				width:728px;
+				height:90px;
+			}
+			#footer .social{
+				color:#4d4d4d;
+				float:left;
+				margin-left:28px;
+			}
+			#footer .social .facebook{
+				margin-left:16px;
+				display:inline-block;
+				margin-right:10px;
+			}
+			#footer h3{
+				font-weight:normal;
+				font-size:14px;
+				text-transform:uppercase;
+			}
+			#footer p{
+				font-size:13px;
+				color:#2d2d2d;
+				clear:both;
+				margin-left:330px;
+				padding-top:20px;
+			}
+
+/* end footer */
+/* End Body */
+
+
+/* Inscription */
+
+#inscription_formulaire  {
+	padding-left:67px;
+	padding-right:67px;
+	width:822px;
+}
+
+#inscription_formulaire h3{
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:45px;
+	color:#4d4d4d;
+	font-size:24px;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+}
+
+#inscription_formulaire p {
+	color:#ff6238;
+	font-size:23px;
+	font-family:Trebuchet MS;
+	margin-top:31px;
+}
+
+.bloc_formulaire_inscription {
+	float:left;
+	width:390px;
+	color:#949494;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	padding-bottom:4px;
+	height:60px;
+	
+}
+
+.bloc_formulaire_inscription label {
+	float:left;
+}
+
+.bloc_formulaire_inscription input {
+	float:right;
+	margin-right:65px;
+	background-color:#f7f6f6;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	border:none;
+	height:34px;
+	width:160px;
+	color:#787878;
+	padding-left:5px;
+}
+
+.bloc_formulaire_inscription2 {
+	float:left;
+	width:430px;
+	color:#949494;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	padding-bottom:4px;
+	height:60px;
+}
+
+.bloc_formulaire_inscription2 label {
+	float:left;
+}
+
+.bloc_formulaire_inscription2 input {
+	float:right;
+	background-color:#f7f6f6;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px -1px 1px  rgba(0, 0, 0, 0.1); 
+	border:none;
+	width:160px;
+	height:34px;
+	padding-left:5px;
+	color:#787878;
+}
+
+#inscription_formulaire label.error { 
+	display:block;
+	color:red;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	margin-bottom:15px;
+}
+
+.icon_login {
+	background:url('../images/icone_identiant.png') no-repeat 138px 10px 
+}
+
+.icon_personne {
+	background:url('../images/imgname.png') no-repeat 138px 10px ;
+}
+
+.icon_tel {
+	background:url('../images/icone_portable.png') no-repeat 138px 10px ;
+}
+
+.icon_ville {
+	background:url('../images/imgville.png') no-repeat 138px 10px ;
+}
+
+.icon_mdp {
+	background:url('../images/imgpass.png') no-repeat 138px 10px ;
+}
+
+.ok{
+  color:#4d4d4d;
+  text-align:center;
+  background:#F7F6F6;
+  border: solid 1px #DFDFDF;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.erreurid{
+   color:#4d4d4d;
+  text-align:center;
+  background:#F7F6F6;
+  border: solid 1px #DFDFDF;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#inscription_formulaire a {
+	font-family:Arial;
+	font-size:14px;
+	color:#949494;
+	padding-top:0px;
+	text-decoration:none;
+}
+
+#inscription_formulaire a:hover {
+	color:#fa5400;
+	text-decoration:underline;
+}
+
+
+#inscription_formulaire input[type=submit]{
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:18px;
+	border:1px solid #fa5400;
+	width:112px;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	font-weight:bold;
+	cursor:pointer;
+	height:31px;
+
+	margin-bottom:59px;
+	float:right;
+}
+
+#inscription_formulaire input[type=submit]:hover {
+	opacity:0.7;
+}
+
+#bouton_inscription a {
+	background:url('../images/boutonrouge.png') repeat-x;
+	color:white;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:18px;
+	border:1px solid #fa5400;
+	width:102px;
+	text-align:center;
+	-moz-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow:  1px 1px 1px  rgba(0, 0, 0, 0.1); 
+	box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	font-weight:bold;
+	cursor:pointer;
+	height:21px;
+	padding:5px;
+	float:left;
+}
+
+#bouton_inscription a:hover {
+	opacity:0.7;
+	color:white;
+}
+
+#checbox_inscription {
+	font-family:Arial;
+	font-size:14px;
+	color:#949494;
+	padding-top:0px;
+	text-decoration:none;
+	height:50px;
+	margin-left: 393px;
+}
+
+/* POP UP Inscription */
+
+
+#fade {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup_block{
+	display: none;
+	background: #fff;
+	padding: 20px; 	
+	border: 20px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+img.btn_close {
+	float: right; 
+	margin: -55px -55px 0 0;
+}
+.popup p {
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+/*End Popup Inscription 
+
+
+
+/* End inscription */
+
+
+/* Search */
+
+#search_ok {
+	padding-left:67px;
+	font-family: Trebuchet MS;
+}
+
+#search_ok h2 {
+		color:#4d4d4d;
+	padding-top: 10px;
+	margin-top: 0;
+	font-family: Trebuchet MS;
+}
+#search_resultats {
+padding-top: 37px;
+	float:left;
+	width:601px;
+}
+
+#search_resultats a {
+	color:#4d4d4d;
+	font-size:24px;
+	font-family: Trebuchet MS;
+	text-decoration:none;	
+}
+
+#search_resultats a:hover {
+	color:#fa5400;
+}
+
+#search_resultats h2 {
+	
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+.orga_resultat {
+	margin-top:59px;
+	padding-left:43px;
+	background:url('../images/icone_message.png') no-repeat 0px 3px;
+	margin-bottom:34px;
+}
+
+#search_resultats  p {
+	color:#4d4d4d;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	
+}
+
+.date_resultat {
+	background:url('../images/icone_calendrier.png') no-repeat 0px 3px;
+	padding-left:43px;
+	margin-bottom:34px;
+}
+
+.lieu_resultat{
+	background:url('../images/icone_lieu.png') no-repeat 0px 3px;
+	padding-left:43px;
+	margin-bottom:13px;
+}
+
+.map_resultat{
+	padding-left:43px;
+}
+.orange_resultat{
+	color:#fa5400;
+}
+
+#droite_resultats {
+	width:252px;
+	float:left;
+}
+
+#droite_resultats img {
+	padding-top:37px;
+	margin-left:52px;
+	margin-right: 32px;
+	float:left;
+
+}
+
+.sport_resultat {
+	color:#4d4d4d;
+	text-transform:uppercase;
+	font-family: Trebuchet MS;
+	font-size:24px;
+	font-weight:bold;
+	padding-top: 8px;
+
+}
+
+.participants_resultat {
+	background:url('../images/icone_participants.png') no-repeat 0px 3px;
+	padding-left:43px;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	margin-top:45px;
+}
+
+.conteneur_resultat {
+	margin-bottom:18px;
+}
+
+.list_resultat li{
+	list-style:none;
+	background:url('../images/pers02.png') no-repeat 0px 0px;
+}
+
+#droite_resultats ul {
+	margin-left:0px;
+	padding-left:0px;
+	list-style:none;
+	margin-top:34px;
+}
+
+#droite_resultats ul li {
+	line-height: 33px;
+	margin-bottom:28px;
+	padding-left:37px;
+	font-size:14px;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+}
+
+.a_participants {
+	margin-bottom:0px;
+}
+
+.a_participants a {
+	color:#fa5400;
+	font-size:14px;
+	font-family:Trebuchet MS;
+	float:right;
+	text-decoration:none;
+
+}
+
+/* END Search */
+
+/* PAGE PROFIL */
+
+#haut_profil {
+	width:823px;
+	margin-top:45px;
+	margin-left:75px;
+}
+
+#changeprofilhover {
+	position:absolute;
+}
+
+.profilhover {
+	display:block;
+	height:117px;
+	width:100px;
+	background-color:rgba(50, 50, 50, 0.2);
+}
+
+#changeprofilhover p {
+	background-color:rgba(50, 50, 50, 0.2);
+	color:grey;
+	display: block;
+	right: -342px;
+	position: absolute;
+	top: 22px;
+	padding:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bloc01_profil {
+	width:485px;
+	float:left;
+}
+
+.avatarimg {	
+	float:left;
+	width:100px;
+	height:117px;
+} 
+
+
+.avatarimg img:hover{
+	color:blue;
+}
+
+
+.modifierprofil {
+	margin-left: 150px;
+	margin-top: 62px;
+}
+
+.bloc01_profil p {
+	font-family: Myriad Pro;
+	font-size:24px;
+	display:inline;
+	margin-left:29px;
+	color:#4d4d4d;
+	position:relative;
+}
+
+.bloc02_profil{
+	width:337px;
+	float:right;
+}
+
+.bloc02_profil p{
+	color:#4d4d4d;
+	font-family: Trebuchet MS;
+	font-size:16px;
+}
+ 
+#puce_note_profil {
+	padding-left:34px;
+	margin-left:127px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background: url('../images/note_joueur.png') no-repeat;
+}
+
+#joueur_note_profil{
+	padding-left:34px;
+	margin-left:127px;
+	margin-top:38px;
+	margin-bottom:0px;
+}
+#star_profil{
+	margin-left:225px;
+}
+
+#milieu_profil {
+	width:823px;
+	margin-top:45px;
+	margin-left:75px;
+}
+
+#milieu_profil h3 {
+	font-size:24px;
+	color:#ff6238;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#amis_profil {
+	background: url('../images/icone_amis.png') no-repeat;
+	padding-left:43px;
+}
+
+.bloc03_profil ul li a {
+	text-decoration:none;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.bloc03_profil {
+	width:485px;
+	float:left;
+}
+
+.bloc03_profil ul {
+	margin-top:28px;
+	padding-left:0px;
+	margin-left:2px;
+
+}
+.bloc03_profil ul li {
+	background: url('../images/julien_leroux.png') no-repeat;
+	list-style: none;
+	margin-bottom: 10px;
+	height: 47px;
+	padding-top: 10px;
+	padding-left: 56px;
+	float:left;
+	margin-left:42px;
+}
+
+/* .bloc03_profil  p {
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#a09fa1;
+	font-size:10px;
+	font-family:Trebuchet MS;
+} */
+.bloc04_profil{
+	width:337px;
+	float:right;
+}
+
+.lien_profil {
+	color:#fa5400;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	text-decoration:none;
+	margin-left:281px;
+}
+
+.lien_profil:hover {
+	text-decoration:underline;
+}
+
+#commentaire_profil {
+	background: url('../images/commentaires.png') no-repeat;
+	padding-left:43px;
+}
+
+
+.bloc04_profil ul {
+	margin-top:0px;
+}
+.bloc04_profil ul li {
+	list-style:none;
+	margin-top:30px;
+}
+
+.bloc04_profil ul li  a {
+	text-decoration:none;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-size:16px;
+}
+
+.bloc04_profil ul li p  {
+	color:#a09fa1;
+	font-size:14px;
+	font-family:Trebuchet MS;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+
+.lien_droite_profil {
+	color:#fa5400;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	text-decoration:none;
+	float:right;
+	margin-top: 7px;
+}
+
+
+.lien_droite_profil:hover {
+	text-decoration:underline;
+}
+
+#statistique_profil {
+	background: url('../images/icone_stats.png') no-repeat;
+	padding-left:43px;
+	font-size:24px;
+	color:#ff6238;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#bas_profil {
+	width:823px;
+	margin-top:59px;
+	margin-left:75px;
+	margin-bottom:50px;
+}
+
+.bloc05_profil {
+	width:485px;
+	float:left;
+}
+
+.bloc05_profil img {
+	margin-left:41px;
+	margin-top:27px;
+}
+
+.bloc06_profil{
+	width:337px;
+	float:right;
+}
+
+#sport_profil {
+	background: url('../images/sports_preferes.png') no-repeat;
+	padding-left:43px;
+	font-size:24px;
+	color:#ff6238;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+.bloc06_profil ul li:first-child{
+	margin-top:0px;
+}
+.bloc06_profil ul li {
+	list-style:none;
+	margin-top:30px;
+	color:#4d4d4d;
+	font-family:Trebuchet MS;
+	font-size:16px;
+}
+
+.bloc06_profil ul li span{
+	font-size:14px;
+}
+
+.bloc06_profil ul  {
+	margin-top: 16px; 
+}
+
+.bloc06_profil img {
+	padding-left:30px;
+	padding-right:30px;
+	position:relative;
+	top:10px;
+}
+
+#popup_modification h2 {
+	font-size: 24px;
+	color: #FF6238;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#popup_modification h3 {
+	color: #4D4D4D;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.error {
+	display: inline-block;
+	color: red;
+}
+
+.identifiant_profil label {
+	color: #4D4D4D;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#popup_avatar h2 {
+	font-size: 24px;
+	color: #FF6238;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#popup_avatar h3 {
+	color: #4D4D4D;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+/*============ ADMIN
+*/
+
+.ui-tabs { margin:auto; padding: .2em; width:870px; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { font-size: 13px; list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { font-size: 13px;float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix { zoom: 1; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.ui-widget-header{border: 1px solid 
+#E78F08;
+background: 
+#F6A828;
+color: 
+white;
+font-weight: bold;}
+
+
+#conteneur_tabs {
+	padding-top:20px;
+}
+
+#popup_01 h2 {
+	font-size:21px; 
+}
+#popup_01 p {
+	font-size:14px;
+	color:black; 
+}
+
+#popup_01  {
+	height:500px;
+	overflow:scroll;
+}
+
+
+/* BLOC BETA GRIS */
+
+.bloc_gris_beta {
+	margin-top: 10px;
+	height: 89px;
+	background-color:#e0dede;
+}
+
+.bloc_gris_beta01 {
+	margin-top: 10px;
+	height: 130px;
+	background-color:#e0dede;
+}
+
+.bloc_gris_beta01 p{
+	text-align: center;
+padding-top: 54px;
+	
+}
+
+.bloc_gris_beta02 p{
+	text-align: center;
+padding-top: 54px;
+	
+}
+
+.bloc_gris_beta02 {
+	margin-top: 10px;
+	height: 130px;
+	background-color:#e0dede;
+}
+
+.bloc_gris_beta03 {
+	margin-top: 10px;
+	height: 108px;
+	background-color:#e0dede;
+}
+
+.bloc_gris_beta03 p{
+	text-align:center;
+	padding-top:30px;
+	color:#5a5a5a;
+}
+
+.bloc_gris_beta p {
+	padding-top:20px;
+	text-align: center;
+}
+
+
+/* Mauvais login, identifiants, etc */
+
+.badlogin {
+right: 77px;
+position: absolute;
+color: 
+white; 
+top: -25px;
+}
+
+/* Oublie de mot de passe */
+
+#formulaire h3 {
+	
+margin-top: 0;
+margin-bottom: 0;
+padding-top: 45px;
+color: 
+#4D4D4D;
+font-size: 24px;
+font-family: Trebuchet MS;
+font-weight: bold;
+}
+
+
+#formulaire  {
+
+	margin-left:38px;
+}
+
+#formulaire label {
+
+padding-top: 50px;
+
+display: block;
+width: 173px;
+margin: auto;
+	color: 
+#949494;
+font-size: 18px;
+font-family: Trebuchet MS;
+}
+
+#formulaire input[type=text] {
+
+margin-top: 11px;
+margin-left: 330px;
+background-color: 
+#F7F6F6;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 1px 1px 
+rgba(0, 0, 0, 0.1);
+box-shadow: 0px -1px 1px 
+rgba(0, 0, 0, 0.1);
+border: none;
+height: 34px;
+width: 250px;
+color: 
+#787878;
+
+}
+
+#formulaire input[type=submit]{
+	background: url('../images/boutonrouge.png') repeat-x;
+color: 
+white;
+font-family: Trebuchet MS;
+font-weight: bold;
+font-size: 18px;
+border: 1px solid 
+#FA5400;
+width: 112px;
+-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 1px 1px 
+rgba(0, 0, 0, 0.1);
+box-shadow: 1px 1px 1px 
+rgba(0, 0, 0, 0.1);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+height: 31px;
+
+display: block;
+margin: 10px auto;
+}
